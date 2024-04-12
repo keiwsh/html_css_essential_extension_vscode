@@ -20,4 +20,12 @@ More features will be added soon!
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - [VSCode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
+### About me
+
+- [GitHub](https://github.com/keiwsh)
+- [Website](https://hoangkhangle.ch/)
+- [Garden](https://keiwsh.github.io/quartz/)
+
+
+
 **Enjoy!**

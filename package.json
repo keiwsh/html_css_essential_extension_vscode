@@ -1,9 +1,10 @@
 {
-  "name": "html-css-essential-extensions-by--keiwsh",
-  "displayName": "HTML/CSS Essential Extensions by @keiwsh",
-  "description": "Essential HTML/CSS Extensions and others.",
-  "version": "0.0.1",
+  "name": "html-css-essential-extensions-pack",
+  "displayName": "HTML/CSS Essential Extensions Pack by @keiwsh",
+  "description": "A collection of essential HTML/CSS extensions for Visual Studio Code.",
+  "version": "0.0.3",
   "publisher": "keiwsh",
+  "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.88.0"
   },
@@ -15,11 +16,22 @@
   "contributes": {
     "commands": [
       {
-        "command": "html-css-essential-extensions-by--keiwsh.helloWorld",
+        "command": "html-css-essential-extensions-pack.helloWorld",
         "title": "Hello World"
       }
     ]
   },
+  "extensionPack": [
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "naumovs.color-highlight",
+    "pranaygp.vscode-css-peek",
+    "vincaslt.highlight-matching-tag",
+    "Zignd.html-css-class-completion",
+    "bradgashler.htmltagwrap",
+    "ritwickdey.liveserver",
+    "vscode-icons-team.vscode-icons"
+  ],
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
